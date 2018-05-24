@@ -1,0 +1,7 @@
+backend:
+  name: github
+  repo: 21stAmendmentBrewery/21A-website # Replace with your repo
+  branch: master
+
+media_folder: "src/img/gallery" # Folder where user uploaded files should go
+public_folder: "img/gallery"

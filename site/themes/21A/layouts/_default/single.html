@@ -1,7 +1,13 @@
 {{ define "main" }}
-
-  <h1>{{ .Params.title }}</h1>
-
-  <p>{{ .Content }}</p>
-
+<section>
+  <article>
+    <header>
+      <h1>{{ .Params.title }}</h1>
+      <span>{{ .Date.Format "2006-01-02" }}</span>
+    </header>
+    <main>
+      {{ .Content }}
+    </main>
+  </article>
+</section>
 {{ end }}

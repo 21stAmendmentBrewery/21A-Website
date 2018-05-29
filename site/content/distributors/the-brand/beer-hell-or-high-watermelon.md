@@ -6,6 +6,7 @@ categories:
 ---
 <ol>
  <li>Hell or High Watermelon - Image</li>
+ <li>Sell Sheet</li>
  <li>Downloads</li>
  <li>Colors
   <ol>
